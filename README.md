@@ -1,28 +1,21 @@
-README my-app Recipe Filtering Website!
+Recipe Filtering & Sorting Website
 
 INTRODUCTION
     The purpose of this project is to develop a React website that has the ability
-    to filter and sort a list of items.
+    to filter and sort a list of items, as well as search.
 
 HOW TO RUN:
-    1. Check that you have node installed by running node --version in your terminal. If you don't, you'll need to install it.
-    3. In your terminal, run sudo npm install -g create-react-app (you may
-    need to type in your system password); note that Windows users should instead
-    run npm install -g create-react-app, as Windows does not have the
-    ‘sudo’ command
-    4. Once everything is downloaded, move into the directory in which you want your
-    app to be created (cd Documents)
-    5. Run "create-react-app my-app" to create your app
-    6. Then run "cd my-app" to go into that directory
-    7. Run "npm start" to start your app
-    8. In your browser, go to http://localhost:3000/ to see the app live!
+    1. Clone & download this repository.
+    2. In a terminal, cd into the folder that was downloaded. The location is most likely "Downloads/recipe-filtering-master".
+    3. Run "npm install" then "npm run" in your terminal.
+    4. The website should launch in a browser!
 
 HOW TO USE:
     The recipes can be filtered by the type of meal and dietary restriction
     (vegan or not vegan) by selecting from the options in the drop down buttons
     on the toolbar. In addition, you can sort the recipes by the cook time,
-    either from Low->High or High->Low. To reset the filters and sort to their
-    default, press the Reset button on the left. Lastly, you can search from
+    either from Low->High or High->Low. To reset the filters to their
+    default, press the Reset button on the left. Lastly, you can search
     the recipes with the search bar on the top.
 
 DESIGN:
